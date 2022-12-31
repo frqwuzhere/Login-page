@@ -1,0 +1,35 @@
+.footer-img {
+  img {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+
+    &.light {
+    }
+  }
+
+  a {
+    background-color: white;
+    display: inline-block;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    position: relative;
+
+    margin-left: 36px;
+    margin-top: 100px;
+    transition: all 0.5s;
+    transform: scale(0.5);
+    cursor: pointer;
+    z-index: 9999;
+
+    .switch-theme-btn {
+      width: 43px;
+      height: 43px;
+      position: absolute;
+      top: 14px;
+      right: 13px;
+      transition: all 0.3s;
+    }
+  }
+}

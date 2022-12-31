@@ -1,0 +1,124 @@
+#form-section {
+  margin-top: 10px;
+  background-color: $bg-primary;
+
+  .form {
+    width: 347px;
+    height: 406px;
+    display: grid;
+    margin: auto;
+
+    &- {
+      &header {
+        margin-top: 36px;
+        margin-bottom: 36px;
+        h1 {
+          font-weight: 400;
+          font-size: 64px;
+          line-height: 80px;
+          /* identical to box height */
+
+          text-align: center;
+        }
+        h6 {
+          margin-top: 39px;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 20px;
+          /* identical to box height */
+
+          text-align: center;
+        }
+      }
+      &body {
+        margin: auto;
+        .form-control {
+          width: 300px;
+          height: 45px;
+
+          background: #224957;
+          border-radius: 10px;
+          border: none;
+
+          line-height: 30px;
+          padding-left: 16px;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 20px;
+
+          &.light {
+            background: $bg-primary;
+          }
+
+          &.password {
+            margin-top: 36px;
+            margin-bottom: 23px;
+          }
+          &::placeholder {
+            color: $txt-white;
+          }
+        }
+
+        .form- {
+          &check {
+            &- {
+              &label {
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 17px;
+                /* identical to box height */
+
+                text-align: center;
+                margin-right: 40px;
+              }
+
+              &input {
+                background-color: #224957;
+              }
+              &forget {
+                text-decoration: none;
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 17px;
+                /* identical to box height */
+
+                text-align: center;
+
+                color: $greenlight;
+
+                &.light {
+                  color: $bg-primary;
+                }
+              }
+            }
+          }
+          &submit {
+            button {
+              width: 300px;
+              height: 45px;
+              background-color: $greenlight;
+              border: none;
+              transition: border 0.3s;
+              color: $txt-white;
+              border-radius: 8px;
+
+              &.light {
+                color: $bg-primary;
+              }
+
+              &:hover {
+                background: rgba(32, 223, 127, 0.09);
+                border: 3px solid #fff;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  &.light {
+    background-color: $bg-secondary;
+    color: $bg-primary;
+  }
+}

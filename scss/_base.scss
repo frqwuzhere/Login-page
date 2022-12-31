@@ -1,0 +1,16 @@
+// Color
+$bg-primary: #093545;
+$bg-secondary: #e5e5e5;
+$txt-white: #ffffff;
+$greenlight: #20df7f;
+
+body {
+  font-family: "Lexend Deca", sans-serif;
+  background-color: $bg-primary;
+  color: $txt-white;
+
+  &.light {
+    background-color: $bg-secondary;
+    color: $bg-primary;
+  }
+}

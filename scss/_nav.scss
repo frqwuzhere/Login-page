@@ -1,0 +1,9 @@
+.navbar {
+  padding-top: 10px;
+  color: white;
+
+  &.light {
+    background-color: $bg-secondary;
+    color: $bg-primary;
+  }
+}

@@ -1,0 +1,150 @@
+body {
+  font-family: "Lexend Deca", sans-serif;
+  background-color: #093545;
+  color: #ffffff;
+}
+body.light {
+  background-color: #e5e5e5;
+  color: #093545;
+}
+
+.navbar {
+  padding-top: 10px;
+  color: white;
+}
+.navbar.light {
+  background-color: #e5e5e5;
+  color: #093545;
+}
+
+#form-section {
+  margin-top: 10px;
+  background-color: #093545;
+}
+#form-section .form {
+  width: 347px;
+  height: 406px;
+  display: grid;
+  margin: auto;
+}
+#form-section .form-header {
+  margin-top: 36px;
+  margin-bottom: 36px;
+}
+#form-section .form-header h1 {
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 80px;
+  /* identical to box height */
+  text-align: center;
+}
+#form-section .form-header h6 {
+  margin-top: 39px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height */
+  text-align: center;
+}
+#form-section .form-body {
+  margin: auto;
+}
+#form-section .form-body .form-control {
+  width: 300px;
+  height: 45px;
+  background: #224957;
+  border-radius: 10px;
+  border: none;
+  line-height: 30px;
+  padding-left: 16px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+}
+#form-section .form-body .form-control.light {
+  background: #093545;
+}
+#form-section .form-body .form-control.password {
+  margin-top: 36px;
+  margin-bottom: 23px;
+}
+#form-section .form-body .form-control::-moz-placeholder {
+  color: #ffffff;
+}
+#form-section .form-body .form-control:-ms-input-placeholder {
+  color: #ffffff;
+}
+#form-section .form-body .form-control::placeholder {
+  color: #ffffff;
+}
+#form-section .form-body .form-check-label {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+  text-align: center;
+  margin-right: 40px;
+}
+#form-section .form-body .form-check-input {
+  background-color: #224957;
+}
+#form-section .form-body .form-check-forget {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+  text-align: center;
+  color: #20df7f;
+}
+#form-section .form-body .form-check-forget.light {
+  color: #093545;
+}
+#form-section .form-body .form-submit button {
+  width: 300px;
+  height: 45px;
+  background-color: #20df7f;
+  border: none;
+  transition: border 0.3s;
+  color: #ffffff;
+  border-radius: 8px;
+}
+#form-section .form-body .form-submit button.light {
+  color: #093545;
+}
+#form-section .form-body .form-submit button:hover {
+  background: rgba(32, 223, 127, 0.09);
+  border: 3px solid #fff;
+}
+#form-section.light {
+  background-color: #e5e5e5;
+  color: #093545;
+}
+
+.footer-img img {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+}
+.footer-img a {
+  background-color: white;
+  display: inline-block;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  position: relative;
+  margin-left: 36px;
+  margin-top: 100px;
+  transition: all 0.5s;
+  transform: scale(0.5);
+  cursor: pointer;
+  z-index: 9999;
+}
+.footer-img a .switch-theme-btn {
+  width: 43px;
+  height: 43px;
+  position: absolute;
+  top: 14px;
+  right: 13px;
+  transition: all 0.3s;
+}/*# sourceMappingURL=style.css.map */
